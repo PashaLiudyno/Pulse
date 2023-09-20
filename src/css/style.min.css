@@ -1,0 +1,273 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/style\.scss}line{font-family:\000032}}
+* {
+  font-family: 'Museo Sans Cyrl',sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/style\.scss}line{font-family:\000035}}
+.container {
+  max-width: 950px;
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_promo\.scss}line{font-family:\000031}}
+.promo {
+  min-height: 650px;
+  padding: 21px 0 93px 0;
+  background: url(../../img/bg.png) center center/cover no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_promo\.scss}line{font-family:\000035}}
+  .promo__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-top: 90px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_promo\.scss}line{font-family:\0000311}}
+  .promo__header {
+    color: #FFF;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 42px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_promo\.scss}line{font-family:\0000317}}
+  .promo__subheader {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 24px;
+    margin-top: 17px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_promo\.scss}line{font-family:\0000325}}
+  .promo__icons {
+    margin-top: 65px;
+    width: 425px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_promo\.scss}line{font-family:\0000331}}
+  .promo__icon {
+    width: 108px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_promo\.scss}line{font-family:\0000337}}
+    .promo__icon img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_promo\.scss}line{font-family:\0000344}}
+  .promo__link {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_promo\.scss}line{font-family:\0000349}}
+    .promo__link a {
+      color: #ffffff;
+      -webkit-text-decoration-line: underline;
+              text-decoration-line: underline;
+      text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_header\.scss}line{font-family:\000031}}
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_header\.scss}line{font-family:\000035}}
+  .header__logo {
+    width: 250px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_header\.scss}line{font-family:\000037}}
+    .header__logo img {
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_header\.scss}line{font-family:\0000312}}
+  .header__official {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_header\.scss}line{font-family:\0000317}}
+    .header__official span {
+      display: block;
+      font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_header\.scss}line{font-family:\0000322}}
+  .header__phone {
+    display: block;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_header\.scss}line{font-family:\0000329}}
+  .header__contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_buttons\.scss}line{font-family:\000031}}
+.button {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #c70101;
+  border: none;
+  margin-top: 4px;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_buttons\.scss}line{font-family:\0000312}}
+  .button_main {
+    margin-top: 67px;
+    width: 300px;
+    height: 50px;
+    font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_pluses\.scss}line{font-family:\000031}}
+.pluses {
+  min-height: 473px;
+  padding: 73px 0 65px 0;
+  background-color: #F6F6F6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_pluses\.scss}line{font-family:\000036}}
+  .pluses__second {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_pluses\.scss}line{font-family:\0000311}}
+  .pluses__top {
+    color: #0D0D0D;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_pluses\.scss}line{font-family:\0000318}}
+  .pluses__icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_pluses\.scss}line{font-family:\0000322}}
+  .pluses__icon {
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_pluses\.scss}line{font-family:\0000327}}
+  .pluses__header {
+    color: #0D0D0D;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_pluses\.scss}line{font-family:\0000335}}
+  .pluses__subheader {
+    color: #0D0D0D;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_pluses\.scss}line{font-family:\0000342}}
+    .pluses__subheader a {
+      color: #F00;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      -webkit-text-decoration-line: underline;
+              text-decoration-line: underline; }
+
+@media (max-width: 820px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/base\/_media\.scss}line{font-family:\000032}}
+  .promo {
+    padding-top: 27px;
+    min-height: 621px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/base\/_media\.scss}line{font-family:\0000312}}
+  .container {
+    max-width: 748px; } }
+@media (max-width: 415px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/base\/_media\.scss}line{font-family:\0000319}}
+  .promo {
+    padding: 21px 0 60px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/base\/_media\.scss}line{font-family:\0000324}}
+    .promo__wrapper {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      text-align: center;
+      margin: 30px 5px 40px 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/base\/_media\.scss}line{font-family:\0000329}}
+    .promo__icons {
+      width: 388px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/base\/_media\.scss}line{font-family:\0000334}}
+  .header {
+    padding: 0 6px 0 6px;
+    min-height: 75px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/base\/_media\.scss}line{font-family:\0000337}}
+    .header__phone {
+      font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/base\/_media\.scss}line{font-family:\0000340}}
+    .header img {
+      width: 96%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/base\/_media\.scss}line{font-family:\0000343}}
+    .header span {
+      font-size: 10px;
+      margin-top: 13px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/base\/_media\.scss}line{font-family:\0000347}}
+    .header button {
+      width: 121px;
+      height: 20px;
+      font-size: 11px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/base\/_media\.scss}line{font-family:\0000353}}
+    .header__official {
+      font-size: 16px;
+      margin-right: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/base\/_media\.scss}line{font-family:\0000358}}
+  .pluses {
+    padding: 48px 0 65px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/base\/_media\.scss}line{font-family:\0000360}}
+    .pluses__icons {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/base\/_media\.scss}line{font-family:\0000363}}
+    .pluses__header {
+      font-size: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/base\/_media\.scss}line{font-family:\0000366}}
+    .pluses__subheader {
+      font-size: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/base\/_media\.scss}line{font-family:\0000369}}
+    .pluses__icon {
+      margin-top: 33px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/base\/_media\.scss}line{font-family:\0000372}}
+    .pluses__second {
+      margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/base\/_media\.scss}line{font-family:\0000375}}
+    .pluses__top {
+      font-size: 27px; } }
+
+/*# sourceMappingURL=style.min.css.map */
