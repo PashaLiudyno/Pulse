@@ -57,6 +57,7 @@
     }
     .pluses{
         padding: 48px 0 65px 0;
+        min-height: 715px;
     &__icons{
         flex-direction: column;
     } 
@@ -75,6 +76,23 @@
     &__top{
         font-size: 27px;
     }   
+    }
+    .consultation{
+        padding: 59px 0 92px 0;
+
+    &__title{
+        font-size: 34px !important;
+        text-align: center !important; 
+        line-height: 52px !important;
+        
+    }
+    &__descr{
+        font-size: 19px !important;
+        text-align: center;
+    }
+    .feed-form{
+        margin: 24px auto;
+    }    
     }
     
 
