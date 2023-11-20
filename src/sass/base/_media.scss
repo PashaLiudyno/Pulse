@@ -94,7 +94,32 @@
         margin: 24px auto;
     }    
     }
+    .carousel{
+        padding: 37px 0;
     
+    &__inner{
+        max-width: 430px;
+    }
+    }
+    .slick-track{
+        width: 1558px;
+    }
+    .slick-dots{
+        display: flex;
+        justify-content: space-between;
+    }
+    .slick-list{
+        height: 375px;
+    }
+    .catalog{
+        width: 430px;
+    &__tab{
+        margin-top: 50px;
+        font-size: 12px;
+        width: 115px;
+        line-height: 43px;
+    }    
+    }
 
     
 }
