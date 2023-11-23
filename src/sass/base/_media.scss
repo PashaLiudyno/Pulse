@@ -123,3 +123,46 @@
 
     
 }
+@media (max-width: 991px) {
+    .header{
+        padding: 0 15px 0 15px;
+    }
+    .promo{
+    &__wrapper{
+        padding-right: 20px;
+    }
+    }
+    .catalog{
+    &__content{
+        justify-content: space-evenly;
+    }    
+    }
+    .slick-dots{
+        display: flex;
+        margin-top: 39px;
+        justify-content: space-evenly;
+    }
+    .consultation{
+    &__title{
+        margin-left: 20px;
+    }
+    &__descr{
+        margin-left: 20px;
+    }   
+    }
+    .feed-form{
+        margin-left: 20px;
+    }
+}
+@media (max-width: 924px) {
+    
+    .catalog {
+    &__content_active{
+        display: flex;
+        justify-content: space-evenly;
+    
+   
+     } 
+    }  
+    
+}
