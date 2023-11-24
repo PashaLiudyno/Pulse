@@ -397,6 +397,16 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_consultation\.scss}line{font-family:\0000319}}
+  .consultation .error {
+    border: 1px solid red; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_consultation\.scss}line{font-family:\0000323}}
+  .consultation label.error {
+    color: #FFF;
+    border: none;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 18px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_forms\.scss}line{font-family:\000031}}
 .feed-form {
@@ -815,8 +825,16 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_modal\.scss}line{font-family:\0000342}}
   .modal_mini {
     min-height: 140px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_modal\.scss}line{font-family:\0000346}}
+  .modal .error {
+    border: 1px solid red; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_modal\.scss}line{font-family:\0000350}}
+  .modal label.error {
+    border: none;
+    text-align: center;
+    margin-bottom: 15px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_modal\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/blocks\/_modal\.scss}line{font-family:\0000356}}
 #consultation, #order, #thanks {
   display: none; }
 
