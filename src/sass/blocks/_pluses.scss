@@ -20,6 +20,12 @@
     }
     &__icon{
         text-align: center;
+        &_animated{
+            animation: heartbeat 1s ease infinite ;
+        }
+        &:hover{
+            animation-play-state: paused;
+        }
         
 
     }
