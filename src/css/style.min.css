@@ -1,3 +1,147 @@
+@font-face {
+  font-family: 'Museo Sans Cyrl 500';
+  font-display: swap;
+  src: local("MuseoSansCyrl-500"), url("/fonts/MuseoSansCyrl-500.eot"), url("/fonts/MuseoSansCyrl-500.eot?#iefix") format("embedded-opentype"), url("/fonts/MuseoSansCyrl-500.woff") format("woff"), url("/fonts/MuseoSansCyrl-500.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Museo Sans Cyrl 300';
+  font-display: swap;
+  src: local("/fonts/MuseoSansCyrl-300Italic"), url("/fonts/MuseoSansCyrl-300Italic.eot"), url("/fonts/MuseoSansCyrl-300Italic.eot?#iefix") format("embedded-opentype"), url("/fonts/MuseoSansCyrl-300Italic.woff") format("woff"), url("/fonts/MuseoSansCyrl-300Italic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic; }
+@font-face {
+  font-family: 'Museo Sans Cyrl 900';
+  font-display: swap;
+  src: url("../fonts/MuseoSansCyrl-900.eot");
+  src: local("../fonts/MuseoSansCyrl-900"), url("../fonts/MuseoSansCyrl-900.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-900.woff") format("woff"), url("../fonts/MuseoSansCyrl-900.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'Museo Sans Cyrl 700';
+  font-display: swap;
+  src: url("../fonts/MuseoSansCyrl-700.eot");
+  src: local("../fonts/MuseoSansCyrl-700"), url("../fonts/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-700.woff") format("woff"), url("../font/MuseoSansCyrl-700.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Museo Sans Cyrl 300';
+  font-display: swap;
+  src: url("../fonts/MuseoSansCyrl-300.eot");
+  src: local("MuseoSansCyrl-300"), url("../fonts/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCyrl-300.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Museo Sans Cyrl 100';
+  font-display: swap;
+  src: url("../fonts/MuseoSansCyrl-100.eot");
+  src: local("../fonts/MuseoSansCyrl-100"), url("../fonts/MuseoSansCyrl-100.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-100.woff") format("woff"), url("../fonts/MuseoSansCyrl-100.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+/* Slider */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/libs\/_slick\.scss}line{font-family:\000032}}
+.slick-slider {
+  position: relative;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/libs\/_slick\.scss}line{font-family:\0000321}}
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/libs\/_slick\.scss}line{font-family:\0000331}}
+.slick-list:focus {
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/libs\/_slick\.scss}line{font-family:\0000335}}
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/libs\/_slick\.scss}line{font-family:\0000341}}
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/libs\/_slick\.scss}line{font-family:\0000351}}
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/libs\/_slick\.scss}line{font-family:\0000361}}
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: ''; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/libs\/_slick\.scss}line{font-family:\0000368}}
+.slick-track:after {
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/libs\/_slick\.scss}line{font-family:\0000372}}
+.slick-loading .slick-track {
+  visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/libs\/_slick\.scss}line{font-family:\0000377}}
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/libs\/_slick\.scss}line{font-family:\0000385}}
+[dir='rtl'] .slick-slide {
+  float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/libs\/_slick\.scss}line{font-family:\0000389}}
+.slick-slide img {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/libs\/_slick\.scss}line{font-family:\0000393}}
+.slick-slide.slick-loading img {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/libs\/_slick\.scss}line{font-family:\0000397}}
+.slick-slide.dragging img {
+  pointer-events: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/libs\/_slick\.scss}line{font-family:\00003101}}
+.slick-initialized .slick-slide {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/libs\/_slick\.scss}line{font-family:\00003105}}
+.slick-loading .slick-slide {
+  visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/libs\/_slick\.scss}line{font-family:\00003109}}
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/libs\/_slick\.scss}line{font-family:\00003117}}
+.slick-arrow.slick-hidden {
+  display: none; }
+
 @-webkit-keyframes heartbeat {
   from {
     -webkit-transform: scale(1);
@@ -8,6 +152,7 @@
   to {
     -webkit-transform: scale(1);
             transform: scale(1); } }
+
 @keyframes heartbeat {
   from {
     -webkit-transform: scale(1);
@@ -18,11 +163,11 @@
   to {
     -webkit-transform: scale(1);
             transform: scale(1); } }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/style\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/style\.scss}line{font-family:\000037}}
 * {
   font-family: 'Museo Sans Cyrl',sans-serif; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/style\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Pashameister\/Desktop\/Pulse\/src\/sass\/style\.scss}line{font-family:\0000310}}
 .container {
   position: relative;
   max-width: 950px;
